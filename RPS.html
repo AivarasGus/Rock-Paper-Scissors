@@ -13,20 +13,21 @@
     </div>
 
     <div class="actionButtons">
-      <div class="button" id="rock">
+      <div onclick="play(0)" class="button" id="rock">
         <img id="rock" src="images/rock.png">
       </div>
-      <div class="button" id="paper">
+      <div onclick="play(1)" class="button" id="paper">
         <img id="paper" src="images/paper.png">
       </div>
       <div class="button" id="scissors">
-        <img id="scissors" src="images/scissors.png">
+        <img onclick="play(2)" id="scissors" src="images/scissors.png">
       </div>
     </div>
 
     <div class="message">
-      <p>Pick your weapon!</p>
+      <p id="messageToUser">Pick your weapon!</p>
     </div>
+    <script type="text/javascript" src="RPS_script.js"></script>
   </body>
 
 </html>
